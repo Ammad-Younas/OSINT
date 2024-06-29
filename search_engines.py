@@ -18,7 +18,7 @@ search_engines_endpoints = {"Google" : f"https://www.google.com/search?q={query}
                             "Searx" : f"https://searx.be/search?q={query}&categories=general",
                             "Exalead" : f"http://www.exalead.com/search/web/results/?q={query}",
                             "DuckDuckGo" : f"https://duckduckgo.com/?q={query}&ia=web",
-                            "StartPage" : "",
+                            "StartPage" : f"https://startpage.com/sp/search?q={query}",
                             "Qwant" : f"https://www.qwant.com/?q={query}&t=web",
                             "Brave" : f"https://search.brave.com/search?q={query}",
                             "Wayback" : f"https://web.archive.org/web/*/{query}",
