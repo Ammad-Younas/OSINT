@@ -1,7 +1,10 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="info-gether",
+    name="GetInformation",
     version="0.1",
-    packages=find_packages()
+    author="Ammad Younas",
+    author_email="<ammadyounas837@gmail.com>",
+    keywords=["Info", "Information"],
+    packages=find_packages(),
 )
